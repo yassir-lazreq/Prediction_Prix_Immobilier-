@@ -1,0 +1,44 @@
+# ===== Données (jamais versionnées) =====
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ===== Modèles entraînés (lourds) =====
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.onnx
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.python-version
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs & divers =====
+*.log
+.env
+.streamlit/secrets.toml
+
+# ===== Docker =====
+.dockerignore
