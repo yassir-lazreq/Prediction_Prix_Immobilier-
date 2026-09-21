@@ -1,0 +1,22 @@
+# ===== Core data =====
+pandas>=2.2
+numpy>=1.26
+
+# ===== Visualisation =====
+matplotlib>=3.8
+seaborn>=0.13
+
+# ===== Machine Learning =====
+scikit-learn>=1.5
+joblib>=1.4
+
+# ===== Notebooks =====
+jupyter>=1.0
+ipykernel>=6.29
+notebook>=7.0
+
+# ===== App & Déploiement =====
+streamlit>=1.40
+
+# ===== Utilitaires =====
+python-dotenv>=1.0
